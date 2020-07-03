@@ -1,4 +1,3 @@
-import 'package:demoapp/screens/RuScreen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -28,8 +27,7 @@ class MyApp extends StatelessWidget{
           ),
         child: FloatingActionButton(
           child: Text("deneme butonu"),
-          onPressed: Navigator.push((context), MaterialPageRoute(builder:(BuildContext context)=>RuScreen("deneme","uyarı veriyorum",
-          tamam: () {print("tamama basıldı")}))),
+          
         ),
       ),
 
